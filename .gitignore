@@ -1,0 +1,8 @@
+# Misc stuff
+.*
+!.gitignore
+
+# Work stuff
+Makefile
+Justfile
+tasks.py
