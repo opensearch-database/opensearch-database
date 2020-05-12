@@ -10,7 +10,7 @@
     <Url type="text/html" method="get"
          template="https://docs.python.org/3/search.html?q={searchTerms}"/>
     <Url type="application/opensearchdescription+xml" rel="self"
-         template="https://raw.githubusercontent.com/opensearch-database/opensearch-database/master/data/docs.python.org/python3-search.xml" />
+         template="https://raw.githubusercontent.com/opensearch-database/opensearch-database/master/data/docs.python.org/search-python3.xml" />
 
     <moz:SearchForm>https://docs.python.org/3/search.html</moz:SearchForm>
 </OpenSearchDescription>
