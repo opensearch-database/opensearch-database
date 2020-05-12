@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name        Add missing OpenSearch
 // @namespace   https://github.com/opensearch-database/opensearch-database
-// @version     0.1.0
+// @version     0.1.1
 // @author      KokaKiwi
 // @license     BSD-3-Clause
 // @homepageURL https://github.com/opensearch-database/opensearch-database
 // @downloadURL https://github.com/opensearch-database/opensearch-database/raw/master/MissingOpenSearch.user.js
+// @updateURL   https://github.com/opensearch-database/opensearch-database/raw/master/MissingOpenSearch.user.js
 // @supportURL  https://github.com/opensearch-database/opensearch-database/issues
 // @inject-into content
 // @run-at      document-start
@@ -31,7 +32,10 @@
     document.head.appendChild(link);
   };
 
-  const hostname = location.hostname.split('.').splice(-2).join('.');
+  let hostname = location.hostname;
+  if (hostname.startsWith('www.')) {
+    hostname = hostname.splitit('.').split(-2).join('.');
+  }
 
   fetchMetadatas(hostname).then(metadatas => metadatas.forEach(makeLink));
 })();
