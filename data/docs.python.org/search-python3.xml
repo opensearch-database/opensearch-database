@@ -1,16 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
-                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
     <ShortName>Python</ShortName>
     <LongName>Python 3 documentation</LongName>
     <Image height="16" width="16" type="image/x-icon">https://www.python.org/images/favicon16x16.ico</Image>
     <Attribution>Copyright 2001-2020, Python Software Foundation</Attribution>
 
     <InputEncoding>utf-8</InputEncoding>
-    <Url type="text/html" method="get"
-         template="https://docs.python.org/3/search.html?q={searchTerms}"/>
-    <Url type="application/opensearchdescription+xml" rel="self"
-         template="https://raw.githubusercontent.com/opensearch-database/opensearch-database/master/data/docs.python.org/search-python3.xml" />
+    <Url type="text/html" method="get" template="https://docs.python.org/3/search.html?q={searchTerms}" />
+    <Url type="application/opensearchdescription+xml" rel="self" template="https://raw.githubusercontent.com/opensearch-database/opensearch-database/master/data/docs.python.org/search-python3.xml" />
 
     <moz:SearchForm>https://docs.python.org/3/search.html</moz:SearchForm>
 </OpenSearchDescription>
