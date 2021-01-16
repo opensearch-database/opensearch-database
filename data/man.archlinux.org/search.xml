@@ -5,7 +5,7 @@
     <Attribution>archmanweb Development Team.</Attribution>
 
     <Url type="text/html" method="get" template="https://man.archlinux.org/search?q={searchTerms}" />
-    <Url type="application/opensearchdescription+xml" rel="self" template="https://raw.githubusercontent.com/opensearch-database/opensearch-database/master/data/man.archlinux.org/search.xml" />
+    <Url type="application/opensearchdescription+xml" rel="self" template="https://raw.githubusercontent.com/opensearch-database/opensearch-database/main/data/man.archlinux.org/search.xml" />
     <Query role="example" seatchTerms="info" />
 
     <moz:SearchForm>https://man.archlinux.org</moz:SearchForm>

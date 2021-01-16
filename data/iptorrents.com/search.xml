@@ -4,7 +4,7 @@
     <Image type="image/x-icon" width="16" height="16">https://iptorrents.com/favicon.ico</Image>
 
     <Url type="text/html" method="get" template="https://iptorrents.com/t?q={searchTerms}" />
-    <Url type="application/opensearchdescription+xml" rel="self" template="https://raw.githubusercontent.com/opensearch-database/opensearch-database/master/data/iptorrents.com/search.xml" />
+    <Url type="application/opensearchdescription+xml" rel="self" template="https://raw.githubusercontent.com/opensearch-database/opensearch-database/main/data/iptorrents.com/search.xml" />
 
     <moz:SearchForm>https://iptorrents.com/t</moz:SearchForm>
 </OpenSearchDescription>
