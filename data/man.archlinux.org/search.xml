@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>Arch manual pages</ShortName>
+    <Image type="image/vnd.microsoft.icon" width="16" height="16">https://aur.archlinux.org/images/favicon.ico</Image>
+    <Attribution>archmanweb Development Team.</Attribution>
+
+    <Url type="text/html" method="get" template="https://man.archlinux.org/search?q={searchTerms}" />
+    <Url type="application/opensearchdescription+xml" rel="self" template="https://raw.githubusercontent.com/opensearch-database/opensearch-database/master/data/man.archlinux.org/search.xml" />
+    <Query role="example" seatchTerms="info" />
+
+    <moz:SearchForm>https://man.archlinux.org</moz:SearchForm>
+</OpenSearchDescription>
